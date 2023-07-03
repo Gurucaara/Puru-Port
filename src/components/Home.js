@@ -14,19 +14,18 @@ const Home = () => {
             </h2>
             <p className="text-gray-500 py-4 max-w-md">
               I have 3 months of experience building and desgining software.
-              Currently, I love to work on web application using technologies like
-              React, Tailwind, and Next JS .
+              Currently, I love to work on web application using technologies
+              like React, Tailwind, and Next JS .
             </p>
-  
+
             <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-400 to-green-800">
-                Portfolio
-                <span className="group-hover:rotate-90 duration-300" >
-                  <MdOutlineKeyboardArrowRight size={20}  
-                  className="ml-1" />
-                </span>
+              Portfolio
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={20} className="ml-1" />
+              </span>
             </div>
           </div>
-  
+
           <div>
             <img
               src={heroImage}
