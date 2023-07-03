@@ -1,8 +1,9 @@
 import React from "react";
+import NavBar from "./components/NavBar";
 const App = () => {
     return (
-        <div className="font-bold  text-4xl font-signature">
-            App
+        <div className="text-sm">
+            <NavBar/>
         </div>
     )
 }
