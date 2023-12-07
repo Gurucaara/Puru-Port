@@ -1,10 +1,9 @@
 import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import notesTaking from "../assets/portfolio/notes.png";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import toDoList from "../assets/portfolio/toDoList.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
@@ -23,7 +22,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: toDoList,
+      demo: "https://to-do-list-sigma-dun.vercel.app/",
+      code: "https://github.com/Gurucaara/To-Do-List",
     },
     {
       id: 5,
