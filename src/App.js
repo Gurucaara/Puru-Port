@@ -6,20 +6,20 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import PortfolioTwo from "./components/PortfolioTwo";
 const App = () => {
-    return (
-        <div className="text-sm">
-            <NavBar/>
-            <Home/>
-            <About/>
-            <Portfolio/>
-            <Experience/>
-            <Contact/>
+  return (
+    <div className="text-sm">
+      <NavBar />
+      <Home />
+      <About />
+      <Portfolio />
+      <PortfolioTwo />
+      <Experience />
+      <Contact />
 
-            <SocialLinks/>
-            
-
-        </div>
-    )
-}
-export default App; 
+      <SocialLinks />
+    </div>
+  );
+};
+export default App;
