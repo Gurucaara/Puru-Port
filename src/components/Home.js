@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import heroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight, MdOutlineLink } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Button } from "@mui/material";
+import { redirect } from "react-router-dom";
 
 const Home = () => {
+  const handleClick = () => {
+    // Open the link in a new tab
+    window.open("https://puru-blogs.vercel.app", "_blank");
+  };
   return (
     <div
       name="home"
@@ -35,20 +40,16 @@ const Home = () => {
                 </span>
               </Link>
             </div>
-            <div className="mt-2">
-              <Button
-                href="https://puru-blogs.vercel.app"
-                variant="contained"
-                target="_blank"
-                size="large"
-                style={{ textTransform: "none" }}
+            <div>
+              <button
+                onClick={handleClick}
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-800 "
               >
                 Blog
                 <span className="group-hover:translate-x-4 duration-300">
                   <MdOutlineLink size={20} className="ml-1" />
                 </span>
-              </Button>
+              </button>
             </div>
           </div>
         </div>

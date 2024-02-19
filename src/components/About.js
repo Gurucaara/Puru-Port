@@ -11,7 +11,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           My name is Puru Rana, a passionate web developer based in London,
           Canada. With a knack for both web and mobile application development,
           driven by my passion for innovation. I'm committed to pushing
