@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import heroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight, MdOutlineLink } from "react-icons/md";
 import { Link } from "react-scroll";
-import { Button } from "@mui/material";
-import { redirect } from "react-router-dom";
 
 const Home = () => {
   const handleClick = () => {
-    // Open the link in a new tab
     window.open("https://puru-blogs.vercel.app", "_blank");
   };
   return (
