@@ -4,48 +4,47 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
-    const links = [
-        {
-            id:1,
-            child:(
-                <>
-                LinkedIn <FaLinkedin size={30}/>
-                </>
-            ),
-            href: 'https://www.linkedin.com/in/puru-rana/',
-            style:'rounded-tr-md'
-        },
-        {
-            id:2,
-            child:(
-                <>
-                Github <FaGithub size={30}/>
-                </>
-            ),
-            href: 'https://github.com/Gurucaara',
-        },
-        {
-            id:3,
-            child:(
-                <>
-                Mail <HiOutlineMail size={30}/>
-                </>
-            ),
-            href: 'mailto:pururana24@gmail.com',
-        },
-        {
-            id:4,
-            child:(
-                <>
-                Resume  <BsFillPersonLinesFill size={30}/>
-                </>
-            ),
-            href: "https://drive.google.com/uc?export=download&id=1zNm2Lo112HLPAzOJHNLONRR06703-xAI",
-            style:'rounded-br-md',
-            download:true
-        }
-
-    ];
+  const links = [
+    {
+      id: 1,
+      child: (
+        <>
+          LinkedIn <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/puru-rana/",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          Github <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/Gurucaara",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:pururana24@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "https://drive.google.com/file/d/1T3y7uopNsH9wph8hoBZvdu3ORFnhje1d/view?usp=sharing",
+      style: "rounded-br-md",
+      download: true,
+    },
+  ];
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
