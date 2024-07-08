@@ -12,13 +12,13 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          My name is Puru Rana, a passionate web developer based in London,
-          Canada. With a knack for both web and mobile application development,
-          driven by my passion for innovation. I'm committed to pushing
-          boundaries and surpassing expectations with each project I undertake.
-          Keeping a keen eye on industry trends, I'm always on the lookout for
-          emerging technologies and techniques to incorporate into my work,
-          ensuring that I deliver solutions that are creative.
+          My name is Puru Rana, a passionate web developer based in Canada. With
+          a knack for both web and mobile application development, driven by my
+          passion for innovation. I'm committed to pushing boundaries and
+          surpassing expectations with each project I undertake. Keeping a keen
+          eye on industry trends, I'm always on the lookout for emerging
+          technologies and techniques to incorporate into my work, ensuring that
+          I deliver solutions that are creative.
         </p>
 
         <br />
